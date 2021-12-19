@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "87561530067",
+    "project_id": "second-show-fb1d1",
+    "storage_bucket": "second-show-fb1d1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:87561530067:android:5287e49add50e19ea5c226",
+        "android_client_info": {
+          "package_name": "com.fayaz.secondshow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "87561530067-k7obrgim34dmbqoob6buqpkel2nsof82.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNR9y4NgG_QcYWlErFelM48FhBQipShCY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "87561530067-k7obrgim34dmbqoob6buqpkel2nsof82.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

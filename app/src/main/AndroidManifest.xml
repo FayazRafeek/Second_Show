@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fayaz.secondshow" >
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SecondShow" >
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".Ui.SplashActivity"
+            android:theme="@style/SplashTheme"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Ui.AuthSelectActivity" android:theme="@style/SplashTheme"/>
+        <activity android:name=".Ui.UserLoginActivity"  android:theme="@style/SplashTheme"/>
+        <activity android:name=".Ui.UserRegisterActivity"  android:theme="@style/SplashTheme"/>
+        <activity android:name=".Ui.TheaterLoginActivity"  android:theme="@style/SplashTheme"/>
+        <activity android:name=".Ui.TheaterRegisterActivity"  android:theme="@style/SplashTheme"/>
+        <activity android:name=".Ui.UserHomeActivity" />
+        <activity android:name=".Ui.TheaterHomeActivity" />
+        <activity android:name=".Ui.CreateShowActivity" />
+        <activity android:name=".Ui.UserProfileActivity" />
+        <activity android:name=".Ui.TheaterProfileActivity" />
+        <activity android:name=".Ui.ShowInfoActivity" />
+        <activity android:name=".Ui.BookShowActivity" />
+    </application>
+
+</manifest>
